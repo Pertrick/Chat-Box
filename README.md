@@ -8,6 +8,6 @@
 - Register a new user
 - After successful Registration, Login.
 - A successful login will redirect you to the chat box.
-- to reply the chat, you need to logour the existing user, andd register a new user, login the newly created user and then reply the chat.
+- to reply the chat, you need to logout the existing user, andd register a new user, login the newly created user and then reply the chat.
 
-Note: since a database is not use for persistense of data. Chatting can only be done on the same phone where the cookie and session is the same and present.
+Note: since a database is not use for persisting the data. Chatting can only be done on the same phone where the cookie and session is the same and present.
