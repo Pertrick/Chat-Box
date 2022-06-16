@@ -1,0 +1,148 @@
+*{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+body{
+    color: #fff;
+    background: #000;
+}
+
+header{
+    margin: 10px;
+}
+
+section{
+    border: 1px solid black;
+    margin: 3%;
+    padding: 50px;
+    background-color: #ccc;
+    color: black;
+    border-radius: 15px;
+    height: 70vh;
+    overflow: auto;
+}
+
+.clear{
+    float: none;
+    clear: both;
+}
+
+
+.logout-btn{
+    margin:20px 5px 0 5px;
+}
+
+
+.text-box2{
+    padding:10px ;
+    margin:2px auto;
+    color: black;
+    float: left;
+    font-size: large;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.text-box1{
+    padding:10px ;
+    margin:2px auto;
+    color: black;
+    float:right;
+    font-size: large;
+    background-color: rgb(209, 240, 209);
+    border-radius: 15px;
+}
+
+
+span{
+    font-size: 8px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+input[type='text']{
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+    width:70%;
+    border-radius: 5px;
+    background-color: #ccc;
+    
+}
+
+
+input[type='text']:focus{
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+}
+
+
+@media (max-width: 700px){
+
+    header{
+        margin:5px;
+    }
+
+    section{
+        border: 1px solid black;
+        margin: 3% 5%;
+        padding: 20px;
+        background-color: #ccc;
+        color: black;
+        border-radius: 15px;
+        height: 80vh;
+        overflow: auto;
+    }
+   
+    .text-box2{
+        padding:10px ;
+        margin:2px auto;
+        color: black;
+        float: left;
+        font-size: 12px;
+        background-color: #fff;
+        border-radius: 15px;
+     
+    }
+    
+    .text-box1{
+        padding:10px ;
+        margin:2px auto;
+        color: black;
+        float:right;
+        font-size: 12px;
+        background-color: rgb(209, 240, 209);
+        border-radius: 15px;
+       
+    }
+
+    input[type='text']{
+        border: 0;
+        outline: 0;
+        width:70%;
+        border-radius: 30px;
+        background-color: #ccc;
+        
+    }
+
+    input[type='text']:focus{
+        border-radius: 30px;
+        border: 0;
+        outline: 0;
+        background-color: #fff;
+    }
+
+    input[type='submit']{
+       width:25%;
+       height:50px;
+        
+    }
+
+  
+  
+    
+
+}
